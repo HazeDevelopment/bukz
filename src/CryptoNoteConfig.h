@@ -68,7 +68,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "bukz";
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001b7d99cb09d01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121019d2e7a9c13b89cbc122d5a74d1d3874da7f2f1690867e4274c860e032ef9ad0a";
+const char GENESIS_COINBASE_TX_HEX[] = "011e01ff0001b7d99cb09d01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f7fc86db6bac7e63b3b80e1023061566a6ddeb01b6dc08d8d63a0f1fa0d252b3";
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
