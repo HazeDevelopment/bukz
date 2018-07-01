@@ -3,8 +3,8 @@ Release notes 1.1.2
 Changed the unlock window to 30 blocks
 New genesis block
 Port changes
-p2p 28930;
-rpc 28931;
+p2p 28930
+rpc 28931
 
 Release notes 1.1.1
 
