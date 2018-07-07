@@ -68,7 +68,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "bukz";
-const char GENESIS_COINBASE_TX_HEX[] = "011e01ff0001b7d99cb09d01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101f7fc86db6bac7e63b3b80e1023061566a6ddeb01b6dc08d8d63a0f1fa0d252b3";
+const char GENESIS_COINBASE_TX_HEX[] = "011e01ff0001b7d99cb09d01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121012cdd448caae00c4f9c1cda4c95828897d1538e5a9902b4d1599034ba6892c5bc";
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
@@ -78,9 +78,9 @@ const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  200;    //by def
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-const uint64_t P2P_DEFAULT_PORT = 28930;
+const uint64_t P2P_DEFAULT_PORT = 38930;
 //TODO This port will be used by the daemon to interact with simlewallet
-const uint64_t RPC_DEFAULT_PORT = 28931;
+const uint64_t RPC_DEFAULT_PORT = 38931;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
