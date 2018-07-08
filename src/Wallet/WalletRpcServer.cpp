@@ -12,7 +12,6 @@
 #include "CryptoNoteCore/Account.h"
 #include "crypto/hash.h"
 #include "WalletLegacy/WalletHelper.h"
-// #include "wallet_errors.h"
 
 #include "Rpc/JsonRpc.h"
 
